@@ -1,0 +1,323 @@
+.bg-img {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body {
+    font-family: Tahoma;
+    letter-spacing: 2px;
+}
+
+.blurcont {
+    padding-bottom: 3.5%;
+    backdrop-filter: blur(3.5px);
+}
+
+.opt {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%; 
+    backdrop-filter: blur(2.5px);
+}
+
+.nav1{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 115%;
+    color: #ffffffbe;
+    margin-right: 5%;
+    margin-left: 5%;
+    transition: 
+        color 0.3s ease,
+        text-shadow 0.3s ease;
+}
+
+.nav1:hover {
+    color: white;
+    text-shadow:
+        0 0 7px #ce80aba4,
+        0 0 10px #ce80aba4,
+        0 0 21px #e99adc,
+        0 0 92px  #ffffff,
+        0 0 151px  #ffffff;
+}
+
+.current {
+    display: inline-block;
+    border-bottom: solid white 2px;
+    font-size: 115%;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: white;
+    text-shadow:
+    0 0 7px #ce80aba4,
+    0 0 10px #ce80aba4,
+    0 0 21px #e99adc,
+    0 0 92px  #ffffff,
+    0 0 151px  #ffffff;
+}
+
+.paracontainer {
+    padding: 0.1%;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+    border-radius: 10px;
+    background-color: #6a3f7271;
+    border: solid;
+    border-color: #87678c;  
+}
+
+.paracontainer p{
+    color:#ffffff;
+    text-shadow: 0 0 5px #6a3f72e8;
+    padding-left: 1.5%;
+    padding-right: 2%;
+    padding-bottom: 0.5%;
+    border-color: #482b4386;
+    border-radius: 10px;
+    background-color: #4d2d52bc;
+    box-shadow: 0 0 42px #00000097;
+    line-height: 30px;
+    font-size: 125%;
+    text-align: justify;
+    margin-left: 1.5%;
+    margin-right: 2.5%;
+
+}
+
+.infocont {
+    font-size: 150%;
+    color: white;
+}
+
+.imgedit {
+    height: 575px;
+    width: auto;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 0 0 20px #1c141b;
+}
+
+.info {
+    margin-left: 1.5%;
+    font-size: 150%;
+    letter-spacing: 4px;
+    color: #ffffffdf;
+    text-shadow:
+    0 0 7px #ce80aba4,
+    0 0 10px #ce80aba4;
+}
+
+.landtxt {
+    margin:auto;
+    border-radius: 25px;
+    backdrop-filter: blur(2.5px);
+    padding: 1%;
+    margin-top: 40px;
+    margin-bottom: 1.5%;
+    width: 45%;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 350%;
+    color: #ffffffdd;
+    text-shadow:
+    0 0 7px #ce80aba4,
+    0 0 10px #ce80aba4,
+    0 0 21px #e99adc,
+    0 0 102px  #ffffff,
+    0 0 151px  #ffffff;
+}
+
+.somecontainer {
+    padding: 30px;
+    margin: 0% auto;
+    width: 25%;
+}
+
+#link1:hover{
+    color: white;
+    box-shadow:
+    0 0 7px #ce80aba4,
+    0 0 10px #ce80aba4,
+    0 0 21px #e99adc,
+    0 0 92px  #ffffff;
+    border-color: #6a3f72e8;
+    background-color: #6a3f72e8;
+}
+
+#link1 {
+    margin-bottom: 3.5%;
+    padding: 20px;
+    border: solid;
+    border-color: #6a3f72;
+    background-color: #6a3f7271;
+    transition: border-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+    backdrop-filter: blur(2.5px);
+    text-decoration: none;
+    text-align: center;
+    font-size: 220%;
+    color: #ffffffbe;
+    text-shadow:
+    0 0 7px #ce80aba4,
+    0 0 10px #ce80aba4,
+    0 0 21px #e99adc,
+    0 0 102px  #ffffff,
+    0 0 151px  #ffffff;
+}
+
+#link2 {
+    text-align: center;
+    margin-bottom: 3.5%;
+    border: solid;
+    border-color: #6a3f72;
+    background-color: #6a3f7271;
+    padding: 20px;
+    transition: border-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    transform: box-shadow 0.3s ease;
+    border-radius: 10px;
+    backdrop-filter: blur(2.5px);
+    text-decoration: none;
+    font-size: 220%;
+    color: #ffffffbe;
+    text-shadow:
+    0 0 7px #ce80aba4,
+    0 0 10px #ce80aba4,
+    0 0 21px #e99adc,
+    0 0 102px  #ffffff,
+    0 0 151px  #ffffff;
+
+}
+
+#link2:hover{
+    color: white;
+    box-shadow:
+    0 0 7px #ce80aba4,
+    0 0 10px #ce80aba4,
+    0 0 21px #e99adc,
+    0 0 92px  #ffffff;
+    border-color: #6a3f72e8;
+    background-color: #6a3f72e8;
+}
+
+#link3 {
+    text-align: center;
+    margin-bottom: 20%;
+    border: solid;
+    border-color: #6a3f72;
+    background-color: #6a3f7271;
+    padding: 20px;
+    transition: border-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    transition: color 0.1s ease;
+    border-radius: 10px;
+    backdrop-filter: blur(2.5px);
+    text-decoration: none;
+    font-size: 220%;
+    color: #ffffffbe;
+
+}
+
+#link3:hover{
+    color: #3f283c;
+    border-color: #482b43;
+    background-color: #4b2e45a5;
+}
+
+.rsv {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 115%;
+    color: #ffffffbe;
+    margin-right: 5%;
+    margin-left: 5%;
+    transition: 
+        color 0.3s ease,
+        text-shadow 0.3s ease;
+}
+
+.rsv:hover {
+    color: #843f7ad3;
+}
+
+.img1 {
+    border-radius: 10px;
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+    background-color: #4d2d52bc;
+    box-shadow: 0 0 42px #00000097;
+    padding-top: 0.5%;
+}
+
+.imgcont {
+    margin: 0% auto;
+    width: 90%;
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+    box-shadow: 0 0 42px #00000097;
+    border-radius: 10px;
+    background-color: #6a3f7271;
+    border: solid;
+    border-color: #87678c;  
+}
+
+.filler {
+    padding-top: 1.5%;
+    color:#ffffff;
+    text-shadow: 
+    0 0 7px #ce80aba4,
+    0 0 21px #e99adc,
+    0 0 92px  #ffffff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 125%;
+}
+
+.imged {
+    position: relative;
+}
+
+.imgd {
+    width: 85.5%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 6%;
+    border: solid;
+    border-color: #482b4386;
+    border-radius: 10px;
+    background: #6a3f7271;
+    backdrop-filter: blur(2.5px);
+    padding-top: 33%;
+    font-size: 115%;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    text-shadow: 
+    0 0 5px #6a3f72e8,
+    0 0 8px #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition:
+    opacity 0.2s, 
+    visibility 0.2s;
+}
+
+.imged:hover .imgd {
+    box-shadow: 0 0 42px #00000097;
+    visibility: visible;
+    opacity: 1;
+}
+
+td {
+    padding: 5px;
+}

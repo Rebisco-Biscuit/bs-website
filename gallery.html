@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Fuentes' Gallery</title>
+    <link rel="icon" sizes="180x180" href="imgs/tabimg2.png">
+</head>
+
+<body class="bg-img" style="background-image: url(imgs/BG4.gif)">
+    <div class="blurcont">
+        <div class="opt">
+            <a href="index.html" class="nav1">
+                <p>HOMEPAGE</p>
+            </a>
+
+            <a href="aboutmyself.html" class="nav1">
+                <p>ABOUT ME</p>
+            </a>
+
+            <a class="current">
+                <p>GALLERY</p>
+            </a>
+
+            <a class="rsv">
+                <p>RESERVE</p>
+            </a>
+        </div>
+        <div class="info">
+            <h3 style="text-align: center;">HOVER ON ANY IMAGE FOR MORE DETAILS</h3>
+        </div>
+        <div class="imgcont">
+            <table>
+                <tr>
+                    <td>
+                        <div class="imged" id="clickMe">
+                            <img src="imgs/pic12.jpg" class="img1" id="clickMe2">
+                            <p class="imgd">Me, 2008</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imged">
+                            <img src="imgs/pic1.jpg" class="img1">
+                            <p class="imgd">Me, 2010</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imged">
+                            <img src="imgs/pic8.png" class="img1">
+                            <p class="imgd">Digital Illustration<br/>2021</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imged">
+                            <img src="imgs/pic3.jpg" class="img1">
+                            <p class="imgd">Me, 2011</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imged">
+                            <img src="imgs/pic6.jpg" class="img1">
+                            <p class="imgd">Me, 2009</p>
+                        </div>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <div class="imged">
+                            <img src="imgs/pic14.jpg" class="img1">
+                        <p class="imgd">Me, 2020</p>
+                    </td>
+                    <td>
+                        <div class="imged">
+                            <img src="imgs/pic10.png" class="img1">
+                            <p class="imgd">Digital Illustration<br/>2021</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imged">
+                            <img src="imgs/pic13.jpg" class="img1">
+                            <p class="imgd">Me, 2014</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imged">      
+                            <img src="imgs/pic15.png" class="img1">
+                            <p class="imgd">Digital Illustration<br/>2022</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imged">
+                            <img src="imgs/pic11.jpg" class="img1">
+                            <p class="imgd">Me, 2023</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+ <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Some text in the Modal..</p>
+    </div>
+  
+</div>
+         
+</body>
+</html>
+
+
+<style>
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+<script>
+console.log('test')
+let x = document.getElementsByClassName("img1");
+
+for(let i = 0 ; i < x.length; i++){
+    x[i].addEventListener("click", function(){
+        console.log("YEPPERS")
+    })
+}
+//x.addEventListener("click", expandImage);
+
+function expandImage(){
+    //x.style.display = "none";
+    console.log("YEP");
+}
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("clickMe");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
